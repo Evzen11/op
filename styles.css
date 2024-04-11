@@ -17,10 +17,11 @@ header{
 .header_info a{
     padding: 6px 10px;
     text-decoration: none;
-    color: rgb(122, 122, 122);
-    border: solid 1px rgb(122, 122, 122);
+    color: rgb(167, 167, 167);
+    border: solid 1px rgb(214, 214, 214);
     border-radius: 20px;
-    background-color: rgba(122, 122, 122, 0.37);
+    background-color: rgba(207, 207, 207, 0.37);
+    font-size: 14px;
 }
 
 .header_info > a > i {
@@ -91,7 +92,7 @@ li a,.nav_menu_a{
 
 .nav_menu_a{
     padding: 12px 20px;
-    background-color: rgb(0, 108, 231);
+    background-color: rgb(0, 160, 223);
     border-radius: 5px;
     color: rgb(255, 255, 255);
     min-width: max-content;
