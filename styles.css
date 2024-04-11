@@ -24,6 +24,12 @@ header{
     background-color: rgba(122, 122, 122, 0.37);
 }
 
+.header_info > a > i {
+    vertical-align: middle;
+    color: #7289da;
+    padding-left: 2px;
+}
+
 .header_info span{
     margin-right: 48px;
     font-size: 13px;
@@ -58,14 +64,16 @@ nav{
 
 .nav_menu{
     display: flex;
-    margin: auto;
+    width: 100%;
     align-items: center;
+    justify-content: space-between;
 }
 
 ul{
     display: flex;
-    margin-left: 48px;
     font-size: 14px;
+    min-width: max-content;
+    font-weight: 600;
 }
 
 li{
@@ -87,6 +95,7 @@ li a,.nav_menu_a{
     background-color: rgb(0, 108, 231);
     border-radius: 5px;
     color: rgb(255, 255, 255);
+    min-width: max-content;
 }
 
 
